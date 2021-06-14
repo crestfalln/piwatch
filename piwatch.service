@@ -1,0 +1,9 @@
+[Unit]
+Description=Pi Watch is watches you door
+
+[Service]
+ExecStart=/opt/piwatch
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
